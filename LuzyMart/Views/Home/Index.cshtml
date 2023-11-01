@@ -1,0 +1,328 @@
+﻿@model ICollection<Product>;
+<!-- end site-header -->
+
+<div id="banner" class="banner full-screen-mode parallax">
+    <div class="container pr">
+        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+            <div class="banner-static">
+                <div class="banner-text">
+                    <div class="banner-cell">
+                        <h1>Light it Up With Our <span class="typer" id="some-id" data-delay="200" data-delim=":" data-words="Wears:Home-Appliances:Electronics" data-colors="red"></span><span class="cursor" data-cursorDisplay="_" data-owner="some-id"></span></h1>
+                        <h2>Idan No Dey Drip Less</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diem nonummy nibh euismod</p>
+                        <div class="book-btn">
+                            <a class="table-btn hvr-underline-from-center" asp-area="" asp-controller="Product" asp-action="Page">Get Yours</a>
+                        </div>
+                        <a href="#about">
+                            <div class="mouse"></div>
+                        </a>
+                    </div>
+                    <!-- end banner-cell -->
+                </div>
+                <!-- end banner-text -->
+            </div>
+            <!-- end banner-static -->
+        </div>
+        <!-- end col -->
+    </div>
+    <!-- end container -->
+</div>
+<!-- end banner -->
+
+<div id="about" class="about-main pad-top-100 pad-bottom-100">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                <div class="wow fadeIn" data-wow-duration="1s" data-wow-delay="0.1s">
+                    <h2 class="block-title"> About Us </h2>
+                    <h3>IT STARTED, QUITE SIMPLY, LIKE THIS...</h3>
+                    <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusm incididunt ut labore et dolore magna aliqua. Ut enim ad minim venia, nostrud exercitation ullamco. </p>
+
+                    <p> Aenean commodo ligula eget dolor aenean massa. Cum sociis nat penatibu set magnis dis parturient montes, nascetur ridiculus mus. quam felisorat, ultricies nec, Aenean commodo ligula eget dolor penatibu set magnis is parturient montes, nascetur ridiculus mus. quam felisorat, ultricies nec, pellentesque eu, pretium quis, sem. quat massa quis enim. Donec vitae sapien ut libero venenatis fauci Nullam quis ante. Etiam sit amet rci eget eros. </p>
+
+                    <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusm incididunt ut labore et dolore magna aliqua. Ut enim ad minim venia, nostrud exercitation ullamco. </p>
+                </div>
+            </div>
+            <!-- end col -->
+            <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                <div class="wow fadeIn" data-wow-duration="1s" data-wow-delay="0.1s">
+                    <div class="about-images">
+                        <img class="about-main" src="images/about-main.jpg" alt="About Main Image">
+                        <img class="about-inset" src="images/about-inset.jpg" alt="About Inset Image">
+                    </div>
+                </div>
+            </div>
+            <!-- end col -->
+        </div>
+        <!-- end row -->
+    </div>
+    <!-- end container -->
+</div>
+
+<div class="special-menu pad-top-100 parallax">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                <div class="wow fadeIn" data-wow-duration="1s" data-wow-delay="0.1s">
+                    <h2 class="block-title color-white text-center"> Today's Special </h2>
+                    <h5 class="title-caption text-center"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusm incididunt ut labore et dolore magna aliqua. Ut enim ad minim venia,nostrud exercitation ullamco. </h5>
+                </div>
+                <div class="special-box">
+                    <div id="owl-demo">
+                        @foreach(var product in Model.Take(8))
+                        {
+                        <div class="item item-type-zoom">
+                            <a href="#" class="item-hover">
+                                <div class="item-info">
+                                    <div class="headline">
+                                        @product.ProductName
+                                        <div class="line"></div>
+                                        <div class="dit-line">Lorem ipsum dolor sit amet, consectetur adip aliqua. Ut enim ad minim venia.</div>
+                                    </div>
+                                </div>
+                            </a>
+                            <div class="item-img">
+                            <img src=@product.Images.FirstOrDefault().Link alt="sp-menu" asp-append-version="true">
+                            </div>
+                        </div>
+                       }
+                    </div>
+                </div>
+                <!-- end special-box -->
+            </div>
+            <!-- end col -->
+        </div>
+        <!-- end row -->
+    </div>
+    <!-- end container -->
+</div>
+<!-- end special-menu -->
+
+<div id="menu" class="menu-main pad-top-100 pad-bottom-100">
+
+</div>
+<!-- end menu -->
+
+<div id="our_team" class="team-main pad-top-100 pad-bottom-100 parallax">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                <div class="wow fadeIn" data-wow-duration="1s" data-wow-delay="0.1s">
+                    <h2 class="block-title text-center">
+                        Testimonials
+                    </h2>
+                    <p class="title-caption text-center">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. </p>
+                </div>
+                <div class="team-box">
+
+                    <div class="row">
+                        <div class="col-md-4 col-sm-6">
+                            <div class="sf-team">
+                                <div class="thumb">
+                                    <a href="#"><img src="images/staff-01.jpg" alt=""></a>
+                                </div>
+                                <div class="text-col">
+                                    <h3>John Doggett</h3>
+                                    <p>Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna. Aenean commodo ligula.</p>
+                                    <ul class="team-social">
+                                        <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                                        <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                                        <li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- end col -->
+                        <div class="col-md-4 col-sm-6">
+                            <div class="sf-team">
+                                <div class="thumb">
+                                    <a href="#"><img src="images/staff-02.jpg" alt=""></a>
+                                </div>
+                                <div class="text-col">
+                                    <h3>Jeffrey Spender</h3>
+                                    <p>Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna. Aenean commodo ligula.</p>
+                                    <ul class="team-social">
+                                        <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                                        <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                                        <li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- end col -->
+                        <div class="col-md-4 col-sm-6">
+                            <div class="sf-team">
+                                <div class="thumb">
+                                    <a href="#"><img src="images/staff-03.jpg" alt=""></a>
+                                </div>
+                                <div class="text-col">
+                                    <h3>Monica Reyes</h3>
+                                    <p>Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna. Aenean commodo ligula.</p>
+                                    <ul class="team-social">
+                                        <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                                        <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                                        <li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- end col -->
+                    </div>
+                    <!-- end row -->
+
+                </div>
+                <!-- end team-box -->
+
+            </div>
+            <!-- end col -->
+        </div>
+        <!-- end row -->
+    </div>
+    <!-- end container -->
+</div>
+<!-- end team-main -->
+
+<div id="gallery" class="gallery-main pad-top-100 pad-bottom-100">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                <div class="wow fadeIn" data-wow-duration="1s" data-wow-delay="0.1s">
+                    <h2 class="block-title text-center">
+                        Our Gallery
+                    </h2>
+                    <p class="title-caption text-center">There are many variations of passages of Lorem Ipsum available </p>
+                </div>
+                <div class="gal-container clearfix">
+                @{var count = 0;
+                @foreach(var product in  Model.Take(11))
+                    {
+                        count++;
+                        var md = 8;
+                        var sm = 6;
+                        if (count == 2 || count == 3 || count == 9 || count == 10)
+                        {
+                            md = 4;
+                        }
+                        if (count == 4 || count == 8 || count == 7 || count == 11)
+                        {
+                            md = 8;
+                        }
+                        if(count == 1)
+                        {
+                            md = 8;
+                            sm = 12;
+                        }
+                        if (count == 5 || count == 6 || count == 7)
+                        {
+                            md = 4;
+                        }
+
+                    <div class="col-md-@md col-sm-@sm co-xs-12 gal-item">
+                        <div class="box">
+                            <a href="#" data-toggle="modal" data-target="#1">
+                                        <img src=@product.Images.FirstOrDefault().Link alt="" asp-append-version="true" />
+                            </a>
+                            <div class="modal fade" id="1" tabindex="-1" role="dialog">
+                                <div class="modal-dialog" role="document">
+                                    <div class="modal-content">
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+                                        <div class="modal-body">
+                                         <img src=@product.Images.FirstOrDefault().Link alt="" asp-append-version="true" />
+                                        </div>
+                                        <div class="col-md-12 description">
+                                            <h4>This is the @count on my Gallery</h4>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                }
+                }
+                </div>
+                <!-- end gal-container -->
+            </div>
+            <!-- end col -->
+        </div>
+        <!-- end row -->
+        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+            <div class="reserve-book-btn text-center">
+                <button class="hvr-underline-from-center" type="submit" value="SEND" id="submit"><a asp-area="" asp-controller="Product" asp-action="Page">View More</a></button>
+            </div>
+        </div>
+    </div>
+    <!-- end container -->
+</div>
+<!-- end gallery-main -->
+
+<div id="reservation" class="reservations-main pad-top-100 pad-bottom-100">
+    <div class="container">
+        <div class="row">
+            <div class="form-reservations-box">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <div class="wow fadeIn" data-wow-duration="1s" data-wow-delay="0.1s">
+                        <h2 class="block-title text-center">
+                            Reservations
+                        </h2>
+                    </div>
+                    <h4 class="form-title">BOOKING FORM</h4>
+                    <p>PLEASE FILL OUT ALL REQUIRED* FIELDS. THANKS!</p>
+
+                    <form id="contact-form" method="post" class="reservations-box" name="contactform" action="mail.php">
+                        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                            <div class="form-box">
+                                <input type="text" name="form_name" id="form_name" placeholder="Name" required="required" data-error="Firstname is required.">
+                            </div>
+                        </div>
+                        <!-- end col -->
+                        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                            <div class="form-box">
+                                <input type="email" name="email" id="email" placeholder="E-Mail ID" required="required" data-error="E-mail id is required.">
+                            </div>
+                        </div>
+                        <!-- end col -->
+                        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                            <div class="form-box">
+                                <input type="text" name="phone" id="phone" placeholder="contact no.">
+                            </div>
+                        </div>
+                        <!-- end col -->
+                        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                            <div class="form-box">
+                                <input type="text" name="date-picker" id="date-picker" placeholder="Date" required="required" data-error="Date is required." />
+                            </div>
+                        </div>
+
+                        <!-- end col -->
+
+                        <div class="col-xs-12">
+                            <div class="form-boxy" style="width: 100%; resize: none !important;">
+                                <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+                                    <div class="form-group">
+                                        <textarea class="form-control" name="message" rows="5" placeholder="Message" required></textarea>
+                                    </div>
+                                </form>
+                            </div>
+
+                        </div>
+                        <!--end col-->
+
+                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                            <div class="reserve-book-btn text-center">
+                                <button class="hvr-underline-from-center" type="submit" value="SEND" id="submit">SEND</button>
+                            </div>
+                        </div>
+                        <!-- end col -->
+                    </form>
+                    <!-- end form -->
+                </div>
+                <!-- end col -->
+            </div>
+            <!-- end reservations-box -->
+        </div>
+        <!-- end row -->
+    </div>
+    <!-- end container -->
+</div>
+<!-- end reservations-main -->
+

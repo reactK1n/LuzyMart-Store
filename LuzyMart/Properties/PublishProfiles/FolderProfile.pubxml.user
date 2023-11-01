@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+https://go.microsoft.com/fwlink/?LinkID=208121.
+-->
+<Project>
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <_PublishTargetUrl>C:\Users\User\Pictures\LuzyMartDesign</_PublishTargetUrl>
+    <History>False|2023-05-13T02:37:02.0893670Z;</History>
+    <LastFailureDetails />
+  </PropertyGroup>
+  <ItemGroup>
+    <DestinationConnectionStrings Include="MartConnectionString">
+      <Value>Server=%28localdb%29\MSSQLLocalDB%3b Database=MartDb%3b Trusted_Connection=True%3b TrustServerCertificate=Yes</Value>
+    </DestinationConnectionStrings>
+  </ItemGroup>
+</Project>

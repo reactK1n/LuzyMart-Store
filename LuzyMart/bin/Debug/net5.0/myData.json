@@ -1,0 +1,325 @@
+[
+
+  {
+      "categoryName": "Electronics",
+      "description": "Category for electronic devices",
+      "products": [
+        {
+          "productName": "Smartphone",
+          "description": "A handheld device that combines mobile communication and computing functions",
+          "images": [
+            {
+              "link": "https://res.cloudinary.com/diioryyzy/image/upload/v1683681473/iphone-14-pro-max-deep-purple-feature1-m_ouamfe.jpg"
+            },
+            {
+              "link": "https://res.cloudinary.com/diioryyzy/image/upload/v1683681473/apple-iphone-8-plus_isemla.jpg"
+            },
+            {
+              "link": "https://res.cloudinary.com/diioryyzy/image/upload/v1683681474/DSC_1380_1641655117006_1641655126983_iuvscp.jpg"
+            }
+          ]
+        },
+        {
+          "productName": "Laptop",
+          "description": "A portable computer",
+          "images": [
+            {
+              "link": "https://res.cloudinary.com/diioryyzy/image/upload/v1683678807/kari-shea-1SAnrIxw5OY-unsplash_uunakv.jpg"
+            },
+            {
+              "link": "https://res.cloudinary.com/diioryyzy/image/upload/v1683678811/joshua-woroniecki-lzh3hPtJz9c-unsplash_hxc8kk.jpg"
+            },
+            {
+              "link": "https://res.cloudinary.com/diioryyzy/image/upload/v1683678856/michal-kubalczyk-WecngmAT-KY-unsplash_idq3d8.jpg"
+            }
+          ]
+        },
+        {
+          "productName": "Tablet",
+          "description": "A portable computing device with a touchscreen",
+          "images": [
+            {
+              "link": "https://res.cloudinary.com/diioryyzy/image/upload/v1683678850/dan-nelson-EhbuqJYNCRk-unsplash_n848co.jpg"
+            },
+            {
+              "link": "https://res.cloudinary.com/diioryyzy/image/upload/v1683678849/henry-ascroft-7OFnb7NOvjw-unsplash_uzk6u8.jpg"
+            },
+            {
+              "link": "https://res.cloudinary.com/diioryyzy/image/upload/v1683678848/roberto-nickson-hLgYtX0rPgw-unsplash_yrpybc.jpg"
+            }
+          ]
+        },
+        {
+          "productName": "Smartwatch",
+          "description": "A wrist-worn device that provides mobile computing and communication functions",
+          "images": [
+            {
+              "link": "https://res.cloudinary.com/diioryyzy/image/upload/v1683678845/lloyd-dirks-0vsk2_9dkqo-unsplash_opqxlv.jpg"
+            },
+            {
+              "link": "https://res.cloudinary.com/diioryyzy/image/upload/v1683678844/onur-binay-8OQt1zTnJeE-unsplash_yx7hmn.jpg"
+            },
+            {
+              "link": "https://res.cloudinary.com/diioryyzy/image/upload/v1683250634/samples/ecommerce/analog-classic.jpg"
+            }
+          ]
+        },
+        {
+          "productName": "Headphones",
+          "description": "An audio accessory that is worn over the ears",
+          "images": [
+            {
+              "link": "https://res.cloudinary.com/diioryyzy/image/upload/v1683678838/sebastian-banasiewcz-oXXc-s5nNy8-unsplash_yonxmd.jpg"
+            },
+            {
+              "link": "https://res.cloudinary.com/diioryyzy/image/upload/v1683678835/kiran-ck-LSNJ-pltdu8-unsplash_jtwwrl.jpg"
+            },
+            {
+              "link": "https://res.cloudinary.com/diioryyzy/image/upload/v1683678836/adam-birkett-vISNAATFXlE-unsplash_jnmxgv.jpg"
+            }
+          ]
+        }
+      ]
+   },
+
+  {
+    "categoryName": "Clothing",
+    "description": "Category for clothing items",
+    "products": [
+      {
+        "productName": "T-Shirt",
+        "description": "A casual, short-sleeved shirt",
+        "images": [
+          {
+            "link": "https://res.cloudinary.com/diioryyzy/image/upload/v1683678825/john-paul-henry-Da0jti8Ekp8-unsplash_ff7aum.jpg"
+          },
+          {
+            "link": "https://res.cloudinary.com/diioryyzy/image/upload/v1683678828/masaaki-komori-9ugEeqflo70-unsplash_t7wy0a.jpg"
+          },
+          {
+            "link": "https://res.cloudinary.com/diioryyzy/image/upload/v1683678833/anomaly-WWesmHEgXDs-unsplash_h2ac0h.jpg"
+          }
+        ]
+      },
+      {
+        "productName": "Jeans",
+        "description": "A type of pants made from denim",
+        "images": [
+          {
+            "link": "https://res.cloudinary.com/diioryyzy/image/upload/v1683678824/laura-chouette-yPZQAzuySJk-unsplash_sslbqd.jpg"
+          },
+          {
+            "link": "https://res.cloudinary.com/diioryyzy/image/upload/v1683678823/lucas-lenzi-i227dPHaQ7s-unsplash_yjundv.jpg"
+          },
+          {
+            "link": "https://res.cloudinary.com/diioryyzy/image/upload/v1683678830/ali-pazani-Pdds9XsWyoM-unsplash_icn79f.jpg"
+          }
+        ]
+      },
+      {
+        "productName": "Dress",
+        "description": "A one-piece garment that covers the body and extends down over the legs",
+        "images": [
+          {
+            "link": "https://res.cloudinary.com/diioryyzy/image/upload/v1683678816/r-n-tyfqOL1FAQc-unsplash_zrwyut.jpg"
+          },
+          {
+            "link": "https://res.cloudinary.com/diioryyzy/image/upload/v1683678818/alice-alinari-gSbSxf-4GNQ-unsplash_q7vaur.jpg"
+          },
+          {
+            "link": "https://res.cloudinary.com/diioryyzy/image/upload/v1683678815/p-t-ohehdpoIKwI-unsplash_chqxek.jpg"
+          }
+        ]
+      },
+      {
+        "productName": "Jacket",
+        "description": "A type of outerwear that extends below the waist",
+        "images": [
+          {
+            "link": "https://res.cloudinary.com/diioryyzy/image/upload/v1683678813/lea-ochel-nsRBbE6-YLs-unsplash_wyy2zz.jpg"
+          },
+          {
+            "link": "https://res.cloudinary.com/diioryyzy/image/upload/v1683678812/adrian-ordonez-P0W27GRvyww-unsplash_hzb8kc.jpg"
+          },
+          {
+            "link": "https://res.cloudinary.com/diioryyzy/image/upload/v1683678816/marcel-strauss-7LUqBD0LW90-unsplash_thip3u.jpg"
+          }
+        ]
+      },
+      {
+        "productName": "Sneakers",
+        "description": "A type of shoe designed for athletic activities or casual wear",
+        "images": [
+          {
+            "link": "https://res.cloudinary.com/diioryyzy/image/upload/v1683678807/joel-muniz-bS_1xFUPgWU-unsplash_dmh309.jpg"
+          },
+          {
+            "link": "https://res.cloudinary.com/diioryyzy/image/upload/v1683678811/ox-street-BWPqHZBhMVA-unsplash_fvdmw2.jpg"
+          },
+          {
+            "link": "https://res.cloudinary.com/diioryyzy/image/upload/v1683678869/samuel-lopes-FUR3LNiI2jc-unsplash_hecyjf.jpg"
+          }
+        ]
+      }
+    ]
+  },
+
+  {
+    "categoryName": "Home Appliances",
+    "description": "Category for home appliances",
+    "products": [
+      {
+        "productName": "Refrigerator",
+        "description": "An appliance for storing food and drinks at low temperatures",
+        "images": [
+          {
+            "link": "https://res.cloudinary.com/diioryyzy/image/upload/v1683678872/sidekix-media-VaGdhK-kI1c-unsplash_ea9mzt.jpg"
+          },
+          {
+            "link": "https://res.cloudinary.com/diioryyzy/image/upload/v1683678877/erik-mclean-xK8QreBEjcc-unsplash_phtdh5.jpg"
+          },
+          {
+            "link": "https://res.cloudinary.com/diioryyzy/image/upload/v1683678878/chander-mohan-eYzg_aaTkcU-unsplash_onsv6n.jpg"
+          }
+        ]
+      },
+      {
+        "productName": "Washing Machine",
+        "description": "An appliance for washing laundry",
+        "images": [
+          {
+            "link": "https://res.cloudinary.com/diioryyzy/image/upload/v1683678874/dieter-k-bkKzItPqVaI-unsplash_qgrsk1.jpg"
+          },
+          {
+            "link": "https://res.cloudinary.com/diioryyzy/image/upload/v1683678878/engin-akyurt-yCYVV8-kQNM-unsplash_zurdhc.jpg"
+          },
+          {
+            "link": "https://res.cloudinary.com/diioryyzy/image/upload/v1683678867/oli-woodman-nUL_PP69IPA-unsplash_vmi3oo.jpg"
+          }
+        ]
+      },
+      {
+        "productName": "Oven",
+        "description": "An appliance for cooking food by baking or roasting",
+        "images": [
+          {
+            "link": "https://res.cloudinary.com/diioryyzy/image/upload/v1683678870/raspopova-marina-8QwHkutqCLQ-unsplash_lhw4gd.jpg"
+          },
+          {
+            "link": "https://res.cloudinary.com/diioryyzy/image/upload/v1683678882/w-eibo-rpPdtqxiRKI-unsplash_zfmdje.jpg"
+          }
+        ]
+      },
+      {
+        "productName": "Air Conditioner",
+        "description": "An appliance for cooling or heating a room",
+        "images": [
+          {
+            "link": "https://res.cloudinary.com/diioryyzy/image/upload/v1683678868/carlos-lindner-53wcYH4IOig-unsplash_ual2ng.jpg"
+          },
+          {
+            "link": "https://res.cloudinary.com/diioryyzy/image/upload/v1683678851/p-l-jBbcXgrFuEY-unsplash_edvx1m.jpg"
+          },
+          {
+            "link": "https://res.cloudinary.com/diioryyzy/image/upload/v1683678858/rendy-novantino-Pjx2A1gfUhA-unsplash_l5iear.jpg"
+          }
+        ]
+      },
+      {
+        "productName": "Vacuum Cleaner",
+        "description": "An appliance for cleaning floors, carpets, and other surfaces",
+        "images": [
+          {
+            "link": "https://res.cloudinary.com/diioryyzy/image/upload/v1683678856/kowon-vn-R3KYh1a3xfU-unsplash_yadaei.jpg"
+          },
+          {
+            "link": "https://res.cloudinary.com/diioryyzy/image/upload/v1683678849/yoonjae-baik-p7MsAMLSbbU-unsplash_zomz12.jpg"
+          },
+          {
+            "link": "https://res.cloudinary.com/diioryyzy/image/upload/v1683678848/jan-antonin-kolar-DeGvnKKETFM-unsplash_bjgxcv.jpg"
+          }
+        ]
+      }
+    ]
+  },
+
+  {
+    "categoryName": "Food",
+    "description": "Category for food products",
+    "products": [
+      {
+        "productName": "Apples",
+        "description": "Fresh and delicious apples",
+        "images": [
+          {
+            "link": "https://res.cloudinary.com/diioryyzy/image/upload/v1683678843/tobi-zLCR7RsxYGs-unsplash_m5d5rt.jpg"
+          },
+          {
+            "link": "https://res.cloudinary.com/diioryyzy/image/upload/v1683678840/estudio-bloom-oo3kSFZ7uHk-unsplash_uffkqv.jpg"
+          },
+          {
+            "link": "https://res.cloudinary.com/diioryyzy/image/upload/v1683678861/marek-studzinski-3D6yReT06p0-unsplash_fr0w76.jpg"
+          }
+        ]
+      },
+      {
+        "productName": "Bread",
+        "description": "Freshly baked bread",
+        "images": [
+          {
+            "link": "https://res.cloudinary.com/diioryyzy/image/upload/v1683678831/markus-spiske-39-6dSUrlyg-unsplash_cnh2b1.jpg"
+          },
+          {
+            "link": "https://res.cloudinary.com/diioryyzy/image/upload/v1683678843/alexandra-kikot--SYTxrY2JZs-unsplash_cyvide.jpg"
+          },
+          {
+            "link": "https://res.cloudinary.com/diioryyzy/image/upload/v1683678844/pesce-huang-XS6oYlde5rc-unsplash_p7pali.jpg"
+          }
+        ]
+      },
+      {
+        "productName": "Cheese",
+        "description": "Assorted cheese platter",
+        "images": [
+          {
+            "link": "https://res.cloudinary.com/diioryyzy/image/upload/v1683678838/choi-sungwoo-Tl9sAzRsjoU-unsplash_dgeo8e.jpg"
+          },
+          {
+            "link": "https://res.cloudinary.com/diioryyzy/image/upload/v1683678828/aliona-gumeniuk-7sJMQ_amtiQ-unsplash_xccwri.jpg"
+          }
+        ]
+      },
+      {
+        "productName": "Chocolate",
+        "description": "Assorted chocolate bars",
+        "images": [
+          {
+            "link": "https://res.cloudinary.com/diioryyzy/image/upload/v1683678844/tetiana-bykovets-H22N-9s8AUw-unsplash_dgqtgi.jpg"
+          },
+          {
+            "link": "https://res.cloudinary.com/diioryyzy/image/upload/v1683678821/pushpak-dsilva-r-hQw_obFd0-unsplash_l0n4oo.jpg"
+          },
+          {
+            "link": "https://res.cloudinary.com/diioryyzy/image/upload/v1683678819/sara-cervera-we4l7ch6iwc-unsplash_v5hzgb.jpg"
+          }
+        ]
+      },
+      {
+        "productName": "Coffee",
+        "description": "Assorted coffee beans and grounds",
+        "images": [
+          {
+            "link": "https://res.cloudinary.com/diioryyzy/image/upload/v1683678823/skyler-gerald-nYgkStQeJVo-unsplash_vvrsmt.jpg"
+          },
+          {
+            "link": "https://res.cloudinary.com/diioryyzy/image/upload/v1683678815/nathan-dumlao-pMW4jzELQCw-unsplash_jdpzgs.jpg"
+          },
+          {
+            "link": "https://res.cloudinary.com/diioryyzy/image/upload/v1683678819/john-schnobrich-ydju9gb6fiI-unsplash_gtjksu.jpg"
+          }
+        ]
+      }
+    ]
+  }
+
+]
